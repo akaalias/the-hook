@@ -114,10 +114,8 @@ void loop() {
     
     long randNumber = random(10);
     
-    Serial.print("randNumber: ");
-    Serial.print(randNumber);
-    Serial.print("\n");
-
+    digitalWrite(GAME_LED_RED, LOW);
+    digitalWrite(GAME_LED_GREEN, LOW);
     
     if(randNumber % 2 == 0) {
       digitalWrite(GAME_LED_RED, LOW);
