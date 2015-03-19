@@ -101,7 +101,7 @@ void loop() {
     digitalWrite(READY_LED, LOW);
 
      
-     for (float blink_delay = 1000; blink_delay > 2; blink_delay = blink_delay * 0.85) {
+     for (float blink_delay = 1200; blink_delay > 1; blink_delay = blink_delay * 0.85) {
       digitalWrite(GAME_LED_RED, HIGH);
       digitalWrite(GAME_LED_GREEN, LOW);
       delay(blink_delay);
@@ -126,6 +126,7 @@ void loop() {
     }
 
     delay(3000);    
+    
     digitalWrite(GAME_LED_RED, LOW);
     digitalWrite(GAME_LED_GREEN, LOW);
     
