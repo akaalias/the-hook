@@ -1,5 +1,9 @@
 # The Hook
 
+## Watch a quick Arduino Demo on YouTube
+
+https://www.youtube.com/watch?v=DS9A2bGTiTQ
+
 ![alt tag](http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/01/the_hook.png)
 
 ## User-Driven Design Spec
